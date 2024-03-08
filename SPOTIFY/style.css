@@ -1,0 +1,140 @@
+* {
+  margin:0;
+  padding: 0;
+  font-family:sans-serif,Arial;
+  font-size: 14px;
+}
+body{
+  background-color: rgba(224, 235, 229, 0.924);
+}
+nav ul {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  list-style-type: none;
+  height:6vh;
+  background-color: #000000;
+  color:#fff;
+}
+.navitems-1{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navitems-1 p a {
+  font-size: 1.3rem;
+  margin:10px;
+  text-decoration: none;
+  color:white;
+}
+
+.navitems-2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navitems-2 li a{
+  margin-right:50px;
+  text-decoration: none;
+  color:white;
+}
+
+.navitems-2 img , .logo img{
+  width : 35px;
+ 
+}
+
+
+.container{
+  min-height: 72vh;
+  background-color: black;
+  display: flex;
+  color:white;
+  width: 80%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("./Thumbnail/Arijit-Singh-Latest-Style-Images-Download-2.jpg");
+  background-repeat:no-repeat ;
+  margin-bottom: 10px;
+}
+
+.bottom{
+  position: sticky;
+  height:10vh;
+  width: 480px;
+  background-color: rgb(8, 5, 5);
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  margin-right: 10px;
+  /* border-radius: 10px; */
+}
+.iconsMain{
+  margin-left: 10px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+#myProgressBar{
+  width: 85%;
+}
+/* .songList{
+  background-color: rgb(69, 16, 16);
+} */
+
+.songItem {
+  height:50px;
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(69, 16, 16); */
+  width:40%;
+  color:black;
+  margin-bottom: 25px;
+}
+.songItem img {
+  border-radius: 10%;
+  width:5vh;
+  height:5vh;
+  margin-right:10px;
+  object-fit: cover;
+}
+.songList-play{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+/* .songItem-thumbnail{ */
+  /* background-color: #000000;
+  border-radius: 10%;
+  width:5vh;
+  height:5vh;
+  margin-right:10px;
+  object-fit: cover; */
+/* } */
+.songItem-name{
+  font-size: 15px;
+}
+.songItem-time{
+  font-size: 13px;
+}
+.songTitlemain{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  height:90%;
+}
+
+.mainContainer{
+  display:flex;
+  margin:13px auto;
+  gap:30px;
+}
+.play-btn{
+  cursor: pointer;
+}
+.songItemProgress{
+  width: 85%;
+}
